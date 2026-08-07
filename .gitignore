@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+.env
+
+# VS Code
+.vscode/
+
+# Model files
+*.pth
+*.pt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Processed images
+data/processed/train_images/
+
+# Logs
+*.log

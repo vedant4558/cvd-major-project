@@ -1,27 +1,24 @@
 # Python
 __pycache__/
-*.pyc
-
-# Virtual Environment
+*.py[cod]
+.venv/
 venv/
-.env
+env/
 
-# VS Code
-.vscode/
-
-# Model files
+# Model checkpoints
 *.pth
 *.pt
+*.ckpt
 
-# Jupyter
-.ipynb_checkpoints/
+# Large datasets
+data/raw/
+data/processed/
 
-# OS
+# Training outputs
+ml/outputs/
+
+# Temporary files
+*.tmp
+*.log
 .DS_Store
 Thumbs.db
-
-# Processed images
-data/processed/train_images/
-
-# Logs
-*.log
